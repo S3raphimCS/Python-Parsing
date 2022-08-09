@@ -2,6 +2,7 @@
 
 Парсер с помощью selenium сохраняет основную информацию по квартирам в Хабаровске и 
 сохраняет в json, но пока только в unicode шифровке
+Все завернуто в отладчики и имеет неформатированный вывод в консоль по одной квартире
 
 '''
 from pydoc import classname, text
@@ -114,7 +115,6 @@ try:
             print()
             print()
         i += 1
-        break
         browser.find_element(by.By.CLASS_NAME, 'pagination-item_arrow-Sttbt').click()
         sleep(2)
 
