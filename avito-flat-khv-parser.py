@@ -11,7 +11,6 @@ from selenium.webdriver.common.keys import Keys
 from selenium.webdriver.support import expected_conditions
 from selenium.common.exceptions import NoSuchElementException
 from selenium.webdriver.common import by
-from bs4 import BeautifulSoup
 from time import sleep
 import json
 
