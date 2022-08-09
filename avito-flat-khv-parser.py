@@ -20,7 +20,7 @@ url = 'https://www.avito.ru/'
 browser.get(url)
 
 
-#заходим на Харабровск
+#Заходим на Харабровск
 browser.find_element(by.By.CLASS_NAME, 'main-select-JJyaZ').click()
 browser.find_element(by.By.CLASS_NAME, 'suggest-input-rORJM').click()
 browser.find_element(by.By.CLASS_NAME, 'suggest-input-rORJM').send_keys('Хабаровск')
